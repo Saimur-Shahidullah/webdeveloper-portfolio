@@ -45,7 +45,7 @@ nav {
     color: #FD6E0A;
 }
 
-nav>ul {
+nav> ul{
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -83,15 +83,15 @@ header {
 
 .banner-greetings {
     font-size: 45px;
-    color: var(--dark-02, #474747);
+    color: var #474747;
     margin-bottom: 0px;
 }
 
 .banner-title {
     font-size: 85px;
     font-weight: 700;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .banner-description {
@@ -99,11 +99,22 @@ header {
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About section styles */
 .about {
-    padding: 230px;
+    padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px ;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
 }
