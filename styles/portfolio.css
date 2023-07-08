@@ -1,9 +1,10 @@
 /* Common shared style */
-body{
+body {
     font-family: 'lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0px;
@@ -12,62 +13,97 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+
+.section-title {
+    color: var #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: var #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nave related style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
 }
-.website-title{
+
+.website-title {
     color: #181818;
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 }
-.text-primary{
- color: #FD6E0A;   
+
+.text-primary {
+    color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related style */
-header{
+header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     /* align-items: end; */
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 500px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     color: var(--dark-02, #474747);
     margin-bottom: 0px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.banner-description{
+
+.banner-description {
     max-width: 500px;
+}
+
+/* main section styles */
+
+/* About section styles */
+.about {
+    padding: 230px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px ;
 }
