@@ -118,3 +118,13 @@ main{
 .about-inf{
     text-align: center;
 }
+#description{
+    padding: 30px 150px;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+}
+.skills{
+    align-items: center;
+}
